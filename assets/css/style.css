@@ -1,0 +1,20 @@
+body {
+	background-image: url("../images/dark_wall_@2X.png");
+	padding-bottom: 70px;
+}
+
+.container-fluid {
+	background: #4aaaa5;
+
+}
+
+.navbar-header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+h1, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+
+}
