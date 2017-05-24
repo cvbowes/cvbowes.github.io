@@ -4,17 +4,77 @@ body {
 }
 
 .container-fluid {
-	background: #4aaaa5;
-
+	background: #fff;
+	
 }
 
 .navbar-header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	border: none;
+	height: 50px;
 
 }
 
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+/*.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}*/
+
+.navbar-default .navbar-brand {
+
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	background: #4aaaa5;
+	padding: 3  0px;
+
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	background: #4aaaa5;
+}
+
 h1, h3 {
+
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+	font-weight: bold;
 
+}
+
+h1 {
+	border-bottom: 3px solid #ddd;
+	padding:0px 15px 15px 0px;
+	font-size: 24px;
+}
+
+h3 {
+	border-bottom: 2px solid #ddd;
+	padding: 0px 15px 15px 0px;
+	font-size: 20px;
+}
+
+.main-content {
+	padding: 0px 20px 20px 20px;
+}
+
+.form-control {
+	margin-bottom: 20px;
+}
+.message-entry {
+	height: 200px;
+	resize: both;
+}
+
+.logo {
+	height: 50px;
 }
