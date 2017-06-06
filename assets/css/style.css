@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/hip-square.png");
+	background: url("../images/mainbg.jpg") fixed;
 	padding: 70px 0px;
 }	
 
@@ -32,12 +32,14 @@ a:hover {
 	font-size: 28px;
 	font-weight: bold;
 	background: #c4637b;
+	opacity: 1;
 
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	background: #c4637b;
+	opacity: 1;
 }
 
 .navbar-default .navbar-nav > li > a {
