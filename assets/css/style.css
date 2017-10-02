@@ -32,14 +32,13 @@ a:hover {
 	font-size: 28px;
 	font-weight: bold;
 	background: #c4637b;
-	opacity: 1;
 
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	background: #c4637b;
-	opacity: 1;
+	color: #E9A0B2;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -171,12 +170,12 @@ label {
 
 }
 
-#rutgers {
+#giftastic {
 	background-image: url("../images/bg4.jpg");
 
 }
 
-#rps {
+#friend-finder {
 	background-image: url("../images/bg5.jpg");
 
 }
