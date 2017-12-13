@@ -2,6 +2,10 @@ body {
 
 }	
 
+a {
+	color: rgb(212, 140, 122);
+}
+
 a:hover {
 	text-decoration: none;
 }
@@ -9,11 +13,26 @@ a:hover {
 	letter-spacing: 2vw;
 	color: rgb(212, 140, 122);
 	margin: 25px 0px;
+}
 
+#subtitle {
+	color: rgb(236, 235, 232);
+	letter-spacing: 1.5px;
+}
+
+#photo img{
+	border-radius: 50%;
+	height: 20vw;
+	max-height: 350px;
+	min-height: 200px;
+	margin: 20px;
+	border: 1px solid rgba(255,255,255, 0.7);
 }
 
 .body-text {
 	color: rgb(236, 235, 232);
+	letter-spacing: 1.5px;
+	text-align: justify;
 }
 #header-section {
 	width: 100%;
