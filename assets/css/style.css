@@ -8,7 +8,7 @@ a:hover {
 #title, .section-title {
 	letter-spacing: 2vw;
 	color: rgb(212, 140, 122);
-	margin: 25px;
+	margin: 25px 0px;
 
 }
 
@@ -19,17 +19,37 @@ a:hover {
 	width: 100%;
 }
 
-#about, #portfolio, #connect {
-	background: url("../images/bg-blur-secondary.jpg") fixed center bottom;
+#about-portfolio, #connect {
 	width: 100%;
 	padding: 10%;
 	line-height: 150%;
 }
+ #about-portfolio {
+	background: url("../images/bg-blur.jpg") fixed center no-repeat;
+ }
 
 .project-card {
-	min-width: 200px;
-	margin: 20px;
+	min-width: 150px;
+	max-width: 400px;
+	margin: 20px auto;
 }
+
+.card .card-title {
+	font-size: 18pt;
+}
+
+.card a {
+	letter-spacing: 5px;
+	color: rgb(212, 140, 122);
+}
+
+.card .card-reveal {
+	background-color: rgba(255,255,255, 0.7);
+}
+.card-reveal p {
+	margin-top: 20px;
+}
+
 .logo {
 	height: 100px;
 	margin: 5vw;
