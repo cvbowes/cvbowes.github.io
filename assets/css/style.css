@@ -1,5 +1,9 @@
 body {
-
+	background: url("../images/bg-blur.jpg") fixed center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }	
 
 a {
@@ -44,11 +48,7 @@ a:hover {
 	line-height: 150%;
 }
  #about-portfolio {
-	background: url("../images/bg-blur.jpg") fixed center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+
  }
 
 .project-card {
