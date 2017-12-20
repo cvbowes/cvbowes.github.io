@@ -45,6 +45,10 @@ a:hover {
 }
  #about-portfolio {
 	background: url("../images/bg-blur.jpg") fixed center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
  }
 
 .project-card {
@@ -74,4 +78,11 @@ a:hover {
 	min-height: 50px;
 	max-height: 100px;
 	margin: 5vw;
+	opacity: .4;
+	transition: opacity .5s ease;
+}
+
+.logo:hover {
+	opacity: 1;
+	
 }
